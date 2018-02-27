@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 
-int random_int(int max)
-{
-    return rand() % max;
-}
-
 void init_rand(void)
 {
     srand(time(NULL));
+}
+
+int random_int(int max)
+{
+    return rand() % max;
 }
 
 int main(int argc, char *argv[])

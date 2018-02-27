@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
         return EXIT_FAILURE;
     }
 
+    // Test
     int max = atoi(argv[1]);
 
     srand(time(NULL));

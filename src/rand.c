@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     // Test
     int max = atoi(argv[1]);
 
-    init_rand();
+    srand(time(NULL));
 
     int result = random_int(max);
 

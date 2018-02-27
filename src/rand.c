@@ -2,15 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-// TODO: use a better random generator
 int random_int(int max)
 {
     return rand() % max;
-}
-
-void init_rand(void)
-{
-    srand(time(NULL));
 }
 
 int main(int argc, char *argv[])
